@@ -17,7 +17,29 @@ This project demonstrates the use of **Snort** as a network-based IDS to detect 
 | Kali | Attacker | Nmap, Hydra, SQLmap, curl |
 | Metasploitable | Victim | Vulnerable services: FTP, DVWA, Mutillidae |
 
-<pre> ```text ┌────────────┐ │ Kali │ │ (Attacker) │ └─────┬──────┘ │ Simulated Attacks (Nmap, Hydra, hping3, curl) ▼ ┌─────────────────────┐ │ Metasploitable VM │ │ (Vulnerable Target)│ └─────────┬───────────┘ │ ▼ Monitored via ens33 ┌──────────────┐ │ Ubuntu VM │ │ (Snort IDS) │ └──────────────┘ ``` </pre>
+<pre>
+┌────────────┐
+│    Kali    │
+│ (Attacker) │
+└─────┬──────┘
+      │
+      │ Simulated Attacks (Nmap, Hydra, hping3, curl)
+      ▼
+┌─────────────────────┐
+│  Metasploitable VM  │
+│ (Vulnerable Target) │
+└─────────┬───────────┘
+          │
+          ▼
+ Monitored via ens33
+          │
+          ▼
+┌──────────────┐
+│  Ubuntu VM   │
+│  (Snort IDS) │
+└──────────────┘
+</pre>
+
 
 ## Project Structure
 <pre>
