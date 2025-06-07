@@ -45,13 +45,15 @@ This project demonstrates the use of **Snort** as a network-based IDS to detect 
 <pre>
 snort-ids-project/
 ├── docs/
-│   ├── Snort_IDS_Report_Jagruth.docx
-│   └── Snort_IDS_Report_Jagruth.pdf
+│   ├── Report.docx
+│   └── Snort_IDS_Report.pdf
+│   └── attack_simulations.md
+│   └── snort_rules.md
+│   └── snort_setup.md
 ├── screenshots/
-│   └── *.png
+│   └── Snort-IDS-Monitor/
+│   └── Snort-Attacker/
 ├── README.md
-├── attack_simulations.md
-├── snort_rules.md
 </pre>
 
 ## 🚨 Detected Attacks
@@ -87,7 +89,7 @@ Found under `screenshots/` folder.
 
 ## 📄 Full Report
 
-Final project report in `report.docx`.
+Final project report in docs foler: Word: `report.docx`, PDF: `Snort_IDS_Report.pdf`.
 
 ---
 
